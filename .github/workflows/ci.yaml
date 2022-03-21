@@ -12,7 +12,7 @@ jobs:
           mv jenkinsfile-runner-prepackaged/Dockerfile.build jenkinsfile-runner-prepackaged/Dockerfile
 
       - name: Test; jenkinsfile-runner-prepackaged
-        uses: jenkinsfile-runner-change
+        uses: ./jenkinsfile-runner-change
         with:
           jenkinsfile: "jenkinsfile-runner-prepackaged/test/Jenkinsfile"
           pluginstxt: "jenkinsfile-runner-prepackaged/test/plugins.txt"
