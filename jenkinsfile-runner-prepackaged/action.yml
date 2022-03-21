@@ -1,5 +1,5 @@
-name: jenkinsfile-runner-prepackaged
-description: Run jenkinsfile-runner-prepackaged
+name: jenkinsfile-runner-change
+description: Run jenkinsfile-runner-change
 author: jenkinsci
 branding:
   icon: monitor
